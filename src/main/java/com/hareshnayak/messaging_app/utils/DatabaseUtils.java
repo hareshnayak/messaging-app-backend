@@ -4,6 +4,9 @@ import com.hareshnayak.messaging_app.models.User;
 import com.hareshnayak.messaging_app.repos.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
+import org.springframework.transaction.annotation.Transactional;
+
+import java.util.UUID;
 
 @RequiredArgsConstructor
 @Component
@@ -12,13 +15,14 @@ public class DatabaseUtils {
 
     public User saveUser(String username, String password) {
         User user = new User();
+        user.setUserId(UUID.randomUUID().toString());
         user.setUsername(username);
         user.setPassword(password);
         return userRepository.save(user);
     }
 
-    public void updateLastLogin(String username) {
-        User user = userRepository.findById(username).orElseThrow(() -> new RuntimeException("User not found"));
+    @Transactional
+    public void updateLastLogin(User user) {
         user.setLastLoginTime(new java.sql.Timestamp(System.currentTimeMillis()));
         userRepository.save(user);
     }
