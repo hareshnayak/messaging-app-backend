@@ -1,4 +1,4 @@
-package com.hareshnayak.messaging_app.models;
+package com.hareshnayak.auth_service.models;
 import lombok.Data;
 
 @Data

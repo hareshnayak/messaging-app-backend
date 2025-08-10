@@ -1,6 +1,6 @@
-package com.hareshnayak.messaging_app.repos;
+package com.hareshnayak.auth_service.repos;
 
-import com.hareshnayak.messaging_app.models.User;
+import com.hareshnayak.auth_service.models.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

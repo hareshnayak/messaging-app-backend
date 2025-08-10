@@ -1,4 +1,4 @@
-package com.hareshnayak.messaging_app.auth;
+package com.hareshnayak.auth_service.auth;
 
 import io.jsonwebtoken.*;
 import io.jsonwebtoken.security.Keys;

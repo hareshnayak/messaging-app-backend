@@ -1,7 +1,7 @@
-package com.hareshnayak.messaging_app.validators;
+package com.hareshnayak.auth_service.validators;
 
-import com.hareshnayak.messaging_app.exceptions.AuthenticationException;
-import com.hareshnayak.messaging_app.models.AuthRequest;
+import com.hareshnayak.auth_service.exceptions.AuthenticationException;
+import com.hareshnayak.auth_service.models.AuthRequest;
 
 public class ValidationUtil {
 

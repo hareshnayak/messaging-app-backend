@@ -1,7 +1,7 @@
-package com.hareshnayak.messaging_app.utils;
+package com.hareshnayak.auth_service.utils;
 
-import com.hareshnayak.messaging_app.models.User;
-import com.hareshnayak.messaging_app.repos.UserRepository;
+import com.hareshnayak.auth_service.models.User;
+import com.hareshnayak.auth_service.repos.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;

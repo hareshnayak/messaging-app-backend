@@ -1,6 +1,6 @@
-package com.hareshnayak.messaging_app.config;
+package com.hareshnayak.auth_service.config;
 
-import com.hareshnayak.messaging_app.filters.JwtAuthenticationFilter;
+import com.hareshnayak.auth_service.filters.JwtAuthenticationFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

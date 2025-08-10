@@ -1,9 +1,9 @@
-package com.hareshnayak.messaging_app.auth;
+package com.hareshnayak.auth_service.auth;
 
-import com.hareshnayak.messaging_app.models.LoginResponse;
-import com.hareshnayak.messaging_app.models.User;
-import com.hareshnayak.messaging_app.repos.UserRepository;
-import com.hareshnayak.messaging_app.utils.DatabaseUtils;
+import com.hareshnayak.auth_service.models.LoginResponse;
+import com.hareshnayak.auth_service.models.User;
+import com.hareshnayak.auth_service.repos.UserRepository;
+import com.hareshnayak.auth_service.utils.DatabaseUtils;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.crypto.password.PasswordEncoder;

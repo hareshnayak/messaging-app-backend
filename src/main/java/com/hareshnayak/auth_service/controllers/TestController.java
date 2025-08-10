@@ -1,6 +1,6 @@
-package com.hareshnayak.messaging_app.controllers;
+package com.hareshnayak.auth_service.controllers;
 
-import com.hareshnayak.messaging_app.models.BaseResponse;
+import com.hareshnayak.auth_service.models.BaseResponse;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;

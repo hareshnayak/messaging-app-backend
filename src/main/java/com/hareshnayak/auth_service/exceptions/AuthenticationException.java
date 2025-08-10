@@ -1,4 +1,4 @@
-package com.hareshnayak.messaging_app.exceptions;
+package com.hareshnayak.auth_service.exceptions;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;

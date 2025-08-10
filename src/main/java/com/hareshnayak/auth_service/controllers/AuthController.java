@@ -1,12 +1,12 @@
-package com.hareshnayak.messaging_app.controllers;
+package com.hareshnayak.auth_service.controllers;
 
-import com.hareshnayak.messaging_app.auth.AuthenticationService;
-import com.hareshnayak.messaging_app.auth.JwtService;
-import com.hareshnayak.messaging_app.models.BaseResponse;
-import com.hareshnayak.messaging_app.models.AuthRequest;
-import com.hareshnayak.messaging_app.models.LoginResponse;
-import com.hareshnayak.messaging_app.models.User;
-import com.hareshnayak.messaging_app.utils.DatabaseUtils;
+import com.hareshnayak.auth_service.auth.AuthenticationService;
+import com.hareshnayak.auth_service.auth.JwtService;
+import com.hareshnayak.auth_service.models.BaseResponse;
+import com.hareshnayak.auth_service.models.AuthRequest;
+import com.hareshnayak.auth_service.models.LoginResponse;
+import com.hareshnayak.auth_service.models.User;
+import com.hareshnayak.auth_service.utils.DatabaseUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Map;
 
-import static com.hareshnayak.messaging_app.validators.ValidationUtil.validateAuthRequest;
+import static com.hareshnayak.auth_service.validators.ValidationUtil.validateAuthRequest;
 
 @Slf4j
 @RestController

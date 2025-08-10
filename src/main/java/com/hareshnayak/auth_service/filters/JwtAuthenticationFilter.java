@@ -1,6 +1,6 @@
-package com.hareshnayak.messaging_app.filters;
+package com.hareshnayak.auth_service.filters;
 
-import com.hareshnayak.messaging_app.auth.JwtService;
+import com.hareshnayak.auth_service.auth.JwtService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

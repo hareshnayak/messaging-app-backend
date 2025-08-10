@@ -1,4 +1,4 @@
-package com.hareshnayak.messaging_app.config;
+package com.hareshnayak.auth_service.config;
 
 import com.zaxxer.hikari.HikariDataSource;
 import lombok.RequiredArgsConstructor;

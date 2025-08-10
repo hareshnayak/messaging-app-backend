@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.hareshnayak</groupId>
-	<artifactId>messaging-app</artifactId>
+	<artifactId>auth-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>messaging-app</name>
-	<description>Messaging app Spring Boot Backend</description>
+	<name>auth-service</name>
+	<description>Auth service Spring Boot Backend</description>
 	<url/>
 	<licenses>
 		<license/>

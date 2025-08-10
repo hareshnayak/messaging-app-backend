@@ -1,4 +1,4 @@
-package com.hareshnayak.messaging_app.models;
+package com.hareshnayak.auth_service.models;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
